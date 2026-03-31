@@ -1,0 +1,444 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.example:ecommapp >------------------------
+[INFO] Building ecommapp 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ ecommapp ---
+[INFO] Deleting /Users/hansikanm/Downloads/ecommfolder/ecommapp/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ecommapp ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ecommapp ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 39 source files with javac [debug release 21] to target/classes
+[INFO] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/security/JwtUtil.java: /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/security/JwtUtil.java uses unchecked or unsafe operations.
+[INFO] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/security/JwtUtil.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/config/SecurityConfig.java:[27,33] variable jwtAuthFilter not initialized in the default constructor
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[27,49] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[32,30] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[33,60] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[34,29] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[35,30] cannot find symbol
+  symbol:   method getPhone()
+  location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[36,13] cannot find symbol
+  symbol:   method setAddresses(request.ge[...]t<>())
+  location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[36,34] cannot find symbol
+  symbol:   method getAddresses()
+  location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[36,67] cannot find symbol
+  symbol:   method getAddresses()
+  location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[37,13] cannot find symbol
+  symbol:   method setRoles(java.util.List<java.lang.String>)
+  location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[38,13] cannot find symbol
+  symbol:   method setCreatedAt(java.time.LocalDateTime)
+  location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[47,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.example.ecommapp.dto.LoginRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[50,45] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.example.ecommapp.dto.LoginRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[50,65] cannot find symbol
+  symbol:   method getPasswordHash()
+  location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[54,50] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[54,67] cannot find symbol
+  symbol:   method getRoles()
+  location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[56,61] cannot find symbol
+  symbol:   method getRoles()
+  location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[56,44] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[24,20] cannot find symbol
+  symbol:   method getItems()
+  location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[24,50] cannot find symbol
+  symbol:   method getItems()
+  location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[29,38] cannot find symbol
+  symbol:   method getItems()
+  location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[30,65] cannot find symbol
+  symbol:   method getProductId()
+  location: variable item of type com.example.ecommapp.model.OrderItem
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[32,53] cannot find symbol
+  symbol:   method getVariants()
+  location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[33,62] cannot find symbol
+  symbol:   method getVariantId()
+  location: variable item of type com.example.ecommapp.model.OrderItem
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[35,104] cannot find symbol
+  symbol:   method getName()
+  location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[37,32] cannot find symbol
+  symbol:   method getStock()
+  location: variable matchingVariant of type com.example.ecommapp.model.ProductVariant
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[37,50] cannot find symbol
+  symbol:   method getQty()
+  location: variable item of type com.example.ecommapp.model.OrderItem
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[38,96] cannot find symbol
+  symbol:   method getColor()
+  location: variable matchingVariant of type com.example.ecommapp.model.ProductVariant
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[39,42] cannot find symbol
+  symbol:   method getSize()
+  location: variable matchingVariant of type com.example.ecommapp.model.ProductVariant
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[43,54] cannot find symbol
+  symbol:   method getId()
+  location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[43,79] cannot find symbol
+  symbol:   method getVariantId()
+  location: variable matchingVariant of type com.example.ecommapp.model.ProductVariant
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[43,100] cannot find symbol
+  symbol:   method getQty()
+  location: variable item of type com.example.ecommapp.model.OrderItem
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[48,14] cannot find symbol
+  symbol:   method setUserId(java.lang.String)
+  location: variable order of type com.example.ecommapp.model.Order
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[49,31] cannot find symbol
+  symbol:   method getItems()
+  location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[50,37] cannot find symbol
+  symbol:   method getTotalAmount()
+  location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[51,14] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable order of type com.example.ecommapp.model.Order
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[52,41] cannot find symbol
+  symbol:   method getShippingAddress()
+  location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[53,14] cannot find symbol
+  symbol:   method setOrderDate(java.time.LocalDateTime)
+  location: variable order of type com.example.ecommapp.model.Order
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[70,14] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable order of type com.example.ecommapp.model.Order
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[29,32] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[30,39] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[31,33] cannot find symbol
+  symbol:   method getBrand()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[32,37] cannot find symbol
+  symbol:   method getCompanyId()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[33,36] cannot find symbol
+  symbol:   method getCategory()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[34,16] cannot find symbol
+  symbol:   method setStatus(request.ge[...]tive")
+  location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[34,34] cannot find symbol
+  symbol:   method getStatus()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[34,64] cannot find symbol
+  symbol:   method getStatus()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[35,36] cannot find symbol
+  symbol:   method getVariants()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[36,34] cannot find symbol
+  symbol:   method getImages()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[37,34] constructor RatingSummary in class com.example.ecommapp.model.RatingSummary cannot be applied to given types;
+  required: no arguments
+  found:    double,int
+  reason: actual and formal argument lists differ in length
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[38,16] cannot find symbol
+  symbol:   method setCreatedAt(java.time.LocalDateTime)
+  location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[39,16] cannot find symbol
+  symbol:   method setUpdatedAt(java.time.LocalDateTime)
+  location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[75,32] cannot find symbol
+  symbol:   method getName()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[76,39] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[77,33] cannot find symbol
+  symbol:   method getBrand()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[78,37] cannot find symbol
+  symbol:   method getCompanyId()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[79,36] cannot find symbol
+  symbol:   method getCategory()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[80,34] cannot find symbol
+  symbol:   method getStatus()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[81,36] cannot find symbol
+  symbol:   method getVariants()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[82,34] cannot find symbol
+  symbol:   method getImages()
+  location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[83,16] cannot find symbol
+  symbol:   method setUpdatedAt(java.time.LocalDateTime)
+  location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[89,16] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[90,16] cannot find symbol
+  symbol:   method setUpdatedAt(java.time.LocalDateTime)
+  location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ReviewService.java:[20,36] cannot find symbol
+  symbol:   method getProductId()
+  location: variable request of type com.example.ecommapp.dto.ReviewRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ReviewService.java:[21,15] cannot find symbol
+  symbol:   method setUserId(java.lang.String)
+  location: variable review of type com.example.ecommapp.model.Review
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ReviewService.java:[22,33] cannot find symbol
+  symbol:   method getRating()
+  location: variable request of type com.example.ecommapp.dto.ReviewRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ReviewService.java:[23,34] cannot find symbol
+  symbol:   method getComment()
+  location: variable request of type com.example.ecommapp.dto.ReviewRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ReviewService.java:[24,15] cannot find symbol
+  symbol:   method setCreatedAt(java.time.LocalDateTime)
+  location: variable review of type com.example.ecommapp.model.Review
+[INFO] 68 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.080 s
+[INFO] Finished at: 2026-03-31T19:25:18+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project ecommapp: Compilation failure: Compilation failure: 
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/config/SecurityConfig.java:[27,33] variable jwtAuthFilter not initialized in the default constructor
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[27,49] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[32,30] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[33,60] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[34,29] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[35,30] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[36,13] cannot find symbol
+[ERROR]   symbol:   method setAddresses(request.ge[...]t<>())
+[ERROR]   location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[36,34] cannot find symbol
+[ERROR]   symbol:   method getAddresses()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[36,67] cannot find symbol
+[ERROR]   symbol:   method getAddresses()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.RegisterRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[37,13] cannot find symbol
+[ERROR]   symbol:   method setRoles(java.util.List<java.lang.String>)
+[ERROR]   location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[38,13] cannot find symbol
+[ERROR]   symbol:   method setCreatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[47,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.LoginRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[50,45] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.LoginRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[50,65] cannot find symbol
+[ERROR]   symbol:   method getPasswordHash()
+[ERROR]   location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[54,50] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[54,67] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[56,61] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/AuthService.java:[56,44] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.example.ecommapp.model.User
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[24,20] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[24,50] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[29,38] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[30,65] cannot find symbol
+[ERROR]   symbol:   method getProductId()
+[ERROR]   location: variable item of type com.example.ecommapp.model.OrderItem
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[32,53] cannot find symbol
+[ERROR]   symbol:   method getVariants()
+[ERROR]   location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[33,62] cannot find symbol
+[ERROR]   symbol:   method getVariantId()
+[ERROR]   location: variable item of type com.example.ecommapp.model.OrderItem
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[35,104] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[37,32] cannot find symbol
+[ERROR]   symbol:   method getStock()
+[ERROR]   location: variable matchingVariant of type com.example.ecommapp.model.ProductVariant
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[37,50] cannot find symbol
+[ERROR]   symbol:   method getQty()
+[ERROR]   location: variable item of type com.example.ecommapp.model.OrderItem
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[38,96] cannot find symbol
+[ERROR]   symbol:   method getColor()
+[ERROR]   location: variable matchingVariant of type com.example.ecommapp.model.ProductVariant
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[39,42] cannot find symbol
+[ERROR]   symbol:   method getSize()
+[ERROR]   location: variable matchingVariant of type com.example.ecommapp.model.ProductVariant
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[43,54] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[43,79] cannot find symbol
+[ERROR]   symbol:   method getVariantId()
+[ERROR]   location: variable matchingVariant of type com.example.ecommapp.model.ProductVariant
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[43,100] cannot find symbol
+[ERROR]   symbol:   method getQty()
+[ERROR]   location: variable item of type com.example.ecommapp.model.OrderItem
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[48,14] cannot find symbol
+[ERROR]   symbol:   method setUserId(java.lang.String)
+[ERROR]   location: variable order of type com.example.ecommapp.model.Order
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[49,31] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[50,37] cannot find symbol
+[ERROR]   symbol:   method getTotalAmount()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[51,14] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable order of type com.example.ecommapp.model.Order
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[52,41] cannot find symbol
+[ERROR]   symbol:   method getShippingAddress()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.OrderRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[53,14] cannot find symbol
+[ERROR]   symbol:   method setOrderDate(java.time.LocalDateTime)
+[ERROR]   location: variable order of type com.example.ecommapp.model.Order
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/OrderService.java:[70,14] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable order of type com.example.ecommapp.model.Order
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[29,32] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[30,39] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[31,33] cannot find symbol
+[ERROR]   symbol:   method getBrand()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[32,37] cannot find symbol
+[ERROR]   symbol:   method getCompanyId()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[33,36] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[34,16] cannot find symbol
+[ERROR]   symbol:   method setStatus(request.ge[...]tive")
+[ERROR]   location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[34,34] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[34,64] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[35,36] cannot find symbol
+[ERROR]   symbol:   method getVariants()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[36,34] cannot find symbol
+[ERROR]   symbol:   method getImages()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[37,34] constructor RatingSummary in class com.example.ecommapp.model.RatingSummary cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    double,int
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[38,16] cannot find symbol
+[ERROR]   symbol:   method setCreatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[39,16] cannot find symbol
+[ERROR]   symbol:   method setUpdatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[75,32] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[76,39] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[77,33] cannot find symbol
+[ERROR]   symbol:   method getBrand()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[78,37] cannot find symbol
+[ERROR]   symbol:   method getCompanyId()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[79,36] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[80,34] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[81,36] cannot find symbol
+[ERROR]   symbol:   method getVariants()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[82,34] cannot find symbol
+[ERROR]   symbol:   method getImages()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ProductRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[83,16] cannot find symbol
+[ERROR]   symbol:   method setUpdatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[89,16] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ProductService.java:[90,16] cannot find symbol
+[ERROR]   symbol:   method setUpdatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable product of type com.example.ecommapp.model.Product
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ReviewService.java:[20,36] cannot find symbol
+[ERROR]   symbol:   method getProductId()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ReviewRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ReviewService.java:[21,15] cannot find symbol
+[ERROR]   symbol:   method setUserId(java.lang.String)
+[ERROR]   location: variable review of type com.example.ecommapp.model.Review
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ReviewService.java:[22,33] cannot find symbol
+[ERROR]   symbol:   method getRating()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ReviewRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ReviewService.java:[23,34] cannot find symbol
+[ERROR]   symbol:   method getComment()
+[ERROR]   location: variable request of type com.example.ecommapp.dto.ReviewRequest
+[ERROR] /Users/hansikanm/Downloads/ecommfolder/ecommapp/src/main/java/com/example/ecommapp/service/ReviewService.java:[24,15] cannot find symbol
+[ERROR]   symbol:   method setCreatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable review of type com.example.ecommapp.model.Review
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
